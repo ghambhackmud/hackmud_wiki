@@ -1,15 +1,33 @@
-This is a function
+---
+title: scripts.lib().rand_int()
+---
 
-## arguments
+## Description
 
-### min
+A function that returns a random number between two parameters.
 
-The minimum number to RaNdOm
+## Syntax
 
-### max
+    scripts.lib().rand_int(1,4)
 
-The maximum number to RaNdOm
+### Parameters
 
-## Return
+#### min
 
-Returns a random number between min and max.
+The minimum number to generate
+
+#### max
+
+The maximum number to generate
+
+### Return
+
+Returns a number between the min and max
+3
+
+## Example
+
+    function(context,args){
+      var l = #fs.scripts.lib()
+      return l.rand_int(1,4)
+    }
