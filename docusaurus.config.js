@@ -99,6 +99,16 @@ const config = {
             },
           ],
         },
+        {
+          type: "dropdown",
+          label: "Scripting",
+          items: [
+            {
+              type: "docSidebar",
+              sidebarId: "scriptingSidebar",
+            },
+          ],
+        },
       ],
     },
     footer: {
