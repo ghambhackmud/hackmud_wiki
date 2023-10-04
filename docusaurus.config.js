@@ -74,6 +74,14 @@ const config = {
     },
     navbar: {
       title: "hackmud Wiki",
+      items: [
+        {
+          type: "doc",
+          position: "left",
+          docId: "upgrades",
+          label: "Upgrades",
+        },
+      ],
     },
     footer: {
       copyright: `Copyright © ${new Date().getFullYear()} ComCODE`,
